@@ -43,5 +43,28 @@ let negValue = -value
 
 let str1 = "Radhe Radhe"
 let str2 = " Kanha"
+
 let str3 = str1+str2
 console.log(str3);
+
+// .................................................................//
+
+console.log("1" + 2); // Output : 12
+console.log(1 + "2"); // Output : 12
+console.log("1" + 2 + 2); // Output : 122
+console.log(1 + 2 + "2"); // Output : 32
+
+// console.log(true);   // Output: true
+// console.log(+true); // Output : 1
+// console.log(true+); //error
+// console.log(+""); // 0
+ 
+//Note : Operator precedence may be required but just for exams
+//  when you code for production above type of code is considered as
+// very bad practice
+
+let gameCounter = 100;
+++gameCounter;
+console.log(gameCounter);
+
+// Note : https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
