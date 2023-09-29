@@ -28,3 +28,22 @@ const myFunction = function(){
     console.log("Hello World");
 }
 //*****For return types=>**************https://262.ecma-international.org/5.1/#sec-11.4.3 */
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+//...........................Stack (Primitive) and heap Memory (Non Primitive).............................................//
+
+let myYoutubename = "hiteshchoudharydotcom"
+let anotherName = myYoutubename
+
+console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "keshav@google.com" 
+console.log(userTwo);
+console.log(userOne);
