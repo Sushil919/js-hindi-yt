@@ -31,3 +31,5 @@ const gameName = new String ('hitesh-sc');
 
 const url = "https://keshav.com/from%20Goloka"
 console.log(url.replace('%20', '-'));
+
+console.log(url.includes('Dau'));
