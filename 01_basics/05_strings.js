@@ -4,4 +4,9 @@ const name = "Keshav"
 
 //&& Now a days string interpolation is used `  ` :
 
-console.log(`My name is ${name} and my repo count is ${repoCount}`);
+console.log(`My name is ${name} and my repo count is ${repoCount}`)
+
+const gameName = new String ('hiteshssc');
+
+console.log(gameName [0]); //Accessing the 0th pos element
+console.log(gameName [1]); //Accessing the 1st pos element
