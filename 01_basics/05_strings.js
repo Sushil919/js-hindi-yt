@@ -15,7 +15,19 @@ const gameName = new String ('hitesh-sc');
 //*****Accessing the char pos */
 // console.log(gameName.charAt(2));
 // console.log(gameName.indexOf('t'));
-console.log(gameName.substring(0,4)); //Accesing sub string
+// console.log(gameName.substring(0,4)); //Accesing sub string
 
-const anotherName = new String ('hitesh-sc');
-console.log(anotherName.slice(-8,4)); //Accesing sub string
+// const anotherName = new String ('hitesh-sc');
+// console.log(anotherName.slice(-8,4)); //Accesing sub string
+
+
+// // &&&&&&&&&&& Trim method &&&&&&&&&&
+
+// const newStringOne = "    keshav    "
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
+
+//%%%%%%%%%%%%%%%%%%%%% Replace  %%%%%%%%%%%%%%%%%%%
+
+const url = "https://keshav.com/from%20Goloka"
+console.log(url.replace('%20', '-'));
