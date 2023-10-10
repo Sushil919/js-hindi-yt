@@ -11,10 +11,21 @@
 
 
 //When we need to print precised value while writing code for ecom app
-const otherNumber = 123.8966
-console.log(otherNumber.toPrecision(3));
+// const otherNumber = 123.8966
+// console.log(otherNumber.toPrecision(3));
 
-const hundreds = 1000000
-console.log(hundreds.toLocaleString()); //output acc US Std.
-//Specify to Indian num system
-console.log(hundreds.toLocaleString('en-IN'));
+// const hundreds = 1000000
+// console.log(hundreds.toLocaleString()); //output acc US Std.
+// //Specify to Indian num system
+// console.log(hundreds.toLocaleString('en-IN'));
+
+
+console.log(Math);
+console.log(Math.abs(-4));
+console.log(Math.round(4.6));
+console.log(Math.ceil(4.2));
+console.log(Math.floor(4.9));
+
+
+
+
