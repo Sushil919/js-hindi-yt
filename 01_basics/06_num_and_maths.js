@@ -19,13 +19,15 @@
 // //Specify to Indian num system
 // console.log(hundreds.toLocaleString('en-IN'));
 
+//Maths Library
 
-console.log(Math);
-console.log(Math.abs(-4));
-console.log(Math.round(4.6));
-console.log(Math.ceil(4.2));
-console.log(Math.floor(4.9));
+// console.log(Math);
+// console.log(Math.abs(-4));
+// console.log(Math.round(4.6));
+// console.log(Math.ceil(4.2));
+// console.log(Math.floor(4.9));
 
 
-
+console.log(Math.random);
+console.log((Math.random()*10)+1);
 
