@@ -24,5 +24,11 @@ let myCreatedDate = new Date("01-14-2023")
 
 let myTimeStamp = Date.now()
 
-console.log(myTimeStamp);
-console.log(myCreatedDate.getTime());
+// console.log(myTimeStamp);
+// console.log(myCreatedDate.getTime()); //comparison humesha milisec me kariyega
+// **********************************************************************************
+// very imp to convert in seconds
+
+// console.log(Date.now()/1000); //but isse decimal me ja rha
+
+console.log(Math.floor(Date.now()/1000));
