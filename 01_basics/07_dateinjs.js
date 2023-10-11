@@ -13,4 +13,7 @@ let myDate = new Date()
 
 //lets check the type of date
 
-console.log(typeof myDate);
+// console.log(typeof myDate);
+
+let myCreatedDate = new Date(2023, 0, 23)
+console.log(myCreatedDate.toDateString());
