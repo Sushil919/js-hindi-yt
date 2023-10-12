@@ -1,4 +1,11 @@
 // array
 
 const myArr = [0, 1, 2, 3, 4, 5]
-console.log(myArr[0]);
+
+//Another way to declare an array
+const myHeros = ["Keshav", "Parth"]
+
+//declare and initialize with values
+
+const myArr2 = new Array(1, 2, 3, 4)
+console.log(myArr2[0]);
