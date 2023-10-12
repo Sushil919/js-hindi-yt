@@ -39,3 +39,10 @@ let newDate = new Date()
 console.log(newDate);
 console.log(newDate.getMonth() + 1); //+1 karte ain ki end user confusena ho
 console.log(newDate.getDay());
+
+//`${newDate.getDay()} and time `
+
+newDate.toLocaleString('default', {
+    weekday: "long"
+    
+})
