@@ -7,5 +7,10 @@ const myHeros = ["Keshav", "Parth"]
 
 //declare and initialize with values
 
-const myArr2 = new Array(1, 2, 3, 4)
-console.log(myArr2[0]);
+// const myArr2 = new Array(1, 2, 3, 4)
+// console.log(myArr2[0]);
+
+// Array Methods
+
+myArr.push(6);
+console.log(myArr);
