@@ -29,4 +29,4 @@ const myHeros = ["Keshav", "Parth"]
 
 const newArr = myArr.join()
 console.log(myArr);
-console.log( typeof newArr); //join changes the type of array to STRING 
+console.log( typeof newArr); //join binds the array changes the type of array to STRING 
