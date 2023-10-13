@@ -12,8 +12,11 @@ const myHeros = ["Keshav", "Parth"]
 
 // Array Methods
 
-myArr.push(6);
-console.log(myArr);
+// myArr.push(6);
+// console.log(myArr);
 
-myArr.pop();
+// myArr.pop();
+// console.log(myArr);
+
+myArr.unshift(9); //add at 1st placeby shifting all the values right
 console.log(myArr);
