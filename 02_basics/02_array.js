@@ -8,5 +8,10 @@ const treta_heros = ["shriram", "bharat", "bajrangi"]
 // console.log(dwapar_heros);
 // console.log(dwapar_heros[3][1]);
 
-const allHeros = dwapar_heros.concat(treta_heros)
-console.log(allHeros);
+// const allHeros = dwapar_heros.concat(treta_heros)
+// console.log(allHeros);
+
+//spread
+
+const all_new_heros = [...dwapar_heros, ...treta_heros]
+console.log(all_new_heros);
