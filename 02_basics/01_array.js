@@ -23,7 +23,10 @@ const myHeros = ["Keshav", "Parth"]
 // myArr.shift() //unlike pop it removes the left most
 // console.log(myArr);
 
-console.log(myArr.includes(9)); //to know 9 is included or not boolean type
+// console.log(myArr.includes(9)); //to know 9 is included or not boolean type
 
-console.log(myArr.indexOf(9)); //jo element present nhi hai uske liye -1 aayega
+// console.log(myArr.indexOf(9)); //jo element present nhi hai uske liye -1 aayega
 
+const newArr = myArr.join()
+console.log(myArr);
+console.log( typeof newArr); //join changes the type of array to STRING 
