@@ -14,3 +14,6 @@ const myHeros = ["Keshav", "Parth"]
 
 myArr.push(6);
 console.log(myArr);
+
+myArr.pop();
+console.log(myArr);
