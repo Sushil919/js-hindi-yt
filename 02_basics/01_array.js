@@ -27,6 +27,13 @@ const myHeros = ["Keshav", "Parth"]
 
 // console.log(myArr.indexOf(9)); //jo element present nhi hai uske liye -1 aayega
 
-const newArr = myArr.join()
-console.log(myArr);
-console.log( typeof newArr); //join binds the array changes the type of array to STRING 
+// const newArr = myArr.join()
+// console.log(myArr);
+// console.log( typeof newArr); //join binds the array changes the type of array to STRING 
+
+//Slice and Splice
+
+console.log("A ", myArr);
+const myn1 = myArr.slice(1,3) //starting from 1 , 2 Not including 3
+console.log(myn1);
+console.log("B ",myArr);
