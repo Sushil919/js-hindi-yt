@@ -32,14 +32,29 @@
 
 //DataType Symbol
 const mySym = Symbol("Key1")
+// const JsUser = {
+//     "full_name" : "Shri Nivas", //different declaration than previous one
+//     age : 19,
+//     mySym: "myKey1", //this is not correct syntax to declare symbol
+//     location : "Venkatesh",
+//     email : "hitesh@google.com",
+//     isLoggedIn: false,
+//     lastLoginDays : ["Monday", "Saturday"]
+// }
+// console.log(JsUser.mySym);
+// console.log(typeof JsUser.mySym);
+
+//Correct way to declare the symbol
 const JsUser = {
     "full_name" : "Shri Nivas", //different declaration than previous one
     age : 19,
-    mySym: "myKey1", //this is not correct syntax to declare symbol
+
+    [mySym] : "myKey1", //this is not correct syntax to declare symbol
+
     location : "Venkatesh",
     email : "hitesh@google.com",
     isLoggedIn: false,
     lastLoginDays : ["Monday", "Saturday"]
 }
-console.log(JsUser.mySym);
+console.log(JsUser[mySym]); //access symbol
 console.log(typeof JsUser.mySym);
