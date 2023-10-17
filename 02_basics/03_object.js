@@ -8,12 +8,24 @@
 
 //object : Declaration
 
+// const JsUser = {
+//     full_name : "Shri Nivas",
+//     age : 19,
+//     location : "Venkatesh",
+//     email : "hitesh@google.com",
+//     isLoggedIn: false,
+//     lastLoginDays : ["Monday", "Saturday"]
+// }
+// console.log(JsUser.email); //access the object
+
+
+//another way access the object 
 const JsUser = {
-    full_name : "Shri Nivas",
+    "full_name" : "Shri Nivas", //different declaration than previous one
     age : 19,
     location : "Venkatesh",
     email : "hitesh@google.com",
     isLoggedIn: false,
     lastLoginDays : ["Monday", "Saturday"]
 }
-console.log(JsUser.email); //access the object
+console.log(JsUser["email"]); 
