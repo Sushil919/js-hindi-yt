@@ -28,4 +28,4 @@ const JsUser = {
     isLoggedIn: false,
     lastLoginDays : ["Monday", "Saturday"]
 }
-console.log(JsUser["email"]); 
+console.log(JsUser["email"]); //using square notaion instead . operator
