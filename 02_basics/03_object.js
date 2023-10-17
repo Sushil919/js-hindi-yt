@@ -20,12 +20,26 @@
 
 
 //another way access the object 
+// const JsUser = {
+//     "full_name" : "Shri Nivas", //different declaration than previous one
+//     age : 19,
+//     location : "Venkatesh",
+//     email : "hitesh@google.com",
+//     isLoggedIn: false,
+//     lastLoginDays : ["Monday", "Saturday"]
+// }
+// console.log(JsUser["email"]); //using square notaion instead . operator
+
+//DataType Symbol
+const mySym = Symbol("Key1")
 const JsUser = {
     "full_name" : "Shri Nivas", //different declaration than previous one
     age : 19,
+    mySym: "myKey1", //this is not correct syntax to declare symbol
     location : "Venkatesh",
     email : "hitesh@google.com",
     isLoggedIn: false,
     lastLoginDays : ["Monday", "Saturday"]
 }
-console.log(JsUser["email"]); //using square notaion instead . operator
+console.log(JsUser.mySym);
+console.log(typeof JsUser.mySym);
