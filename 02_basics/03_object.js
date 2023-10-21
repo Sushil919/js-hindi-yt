@@ -1,7 +1,11 @@
 //Two ways to declare object : literal and constant  
 
-//object literals
+//object.create :: singleton (We'll talk later )
+
 //Literal ki tarah declare karte hain to singleton nhi banta...constructor se humesha singleton banega
+
+//object literals
+
 // const JsUser = {} //empty object
 
 // const JsUser = {
@@ -60,3 +64,7 @@ const JsUser = {
 }
 console.log(JsUser[mySym]); //access symbol
 console.log(typeof JsUser.mySym);
+
+//**Can lock the value : prevent it from getting changed* */
+//Object.freeze(JsUser)  //changes wont propogate
+
