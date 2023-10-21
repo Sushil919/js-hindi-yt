@@ -37,7 +37,7 @@
 // console.log(JsUser["email"]); //using square notaion instead . operator
 
 //DataType Symbol
-const mySym = Symbol("Key1")
+// const mySym = Symbol("Key1")
 // const JsUser = {
 //     "full_name" : "Shri Nivas", //different declaration than previous one
 //     age : 19,
@@ -51,20 +51,37 @@ const mySym = Symbol("Key1")
 // console.log(typeof JsUser.mySym);
 
 //Correct way to declare the symbol
-const JsUser = {
+
+ const JsUser = {
     "full_name" : "Shri Nivas", //different declaration than previous one
     age : 19,
 
-    [mySym] : "myKey1", //this is not correct syntax to declare symbol
+   // [mySym] : "myKey1", //this is not correct syntax to declare symbol
 
     location : "Venkatesh",
     email : "hitesh@google.com",
     isLoggedIn: false,
     lastLoginDays : ["Monday", "Saturday"]
 }
-console.log(JsUser[mySym]); //access symbol
-console.log(typeof JsUser.mySym);
+//JsUser[mySym]); //access symbol
+// console.log(typeof JsUser.mySym);
 
 //**Can lock the value : prevent it from getting changed* */
 //Object.freeze(JsUser)  //changes wont propogate
 
+/*functions are heart of JS */
+JsUser.greeting = function(){
+    console.log("Hello Js User");
+}
+//console.log(JsUser.greeting); //O/P [Function (anonymous)]
+                                //Function execute nhi hua sirf reference aaya
+
+
+//If user wants to reference the name inside the object
+JsUser.greetingTwo = function(){
+    console.log(`Hello JS USer, ${this.full_name}`);
+}
+console.log(JsUser.greeting()); 
+console.log(JsUser.greetingTwo()); 
+
+//final note: try to access the object using . very often, sometimes we use -> [] in special cases
