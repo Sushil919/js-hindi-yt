@@ -31,5 +31,27 @@ const obj2 = {3: "a", 4: "b"}
 
 //const obj3 = Object.assign({},obj1,obj2)
 
-const obj3 = {...obj1, ...obj2}
-console.log(obj3);  
+// const obj3 = {...obj1, ...obj2}
+// console.log(obj3);  
+
+//Objects within Array
+
+const users = [
+    {
+        id: 1,
+        email: "K@gmail.com"
+    },
+    {
+        id: 1,
+        email: "K@gmail.com"
+    },
+    {
+        id: 1,
+        email: "K@gmail.com"
+    }   //Array ke andar boht saare object hain inko loop through karna hai
+        //ya value print karni hai
+]
+users[1].email
+console.log(regularUser);
+console.log(Object.keys(regularUser)); //saari keys ko liya aur ek array me rakh diya 
+                                        //uspe loop laga sakte ahin , kai jagah kaam me le sakte hain
