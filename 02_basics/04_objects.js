@@ -27,5 +27,7 @@ const regularUser = {
 //Combine objects like array
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
-const obj3 = {obj1, obj2}
-console.log(obj3); //Prob : obj ke andar aa rha 
+// const obj3 = {obj1, obj2} //Prob : obj ke andar aa rha
+
+const obj3 = Object.assign(obj1,obj2)
+console.log(obj3);  
