@@ -55,3 +55,5 @@ users[1].email
 console.log(regularUser);
 console.log(Object.keys(regularUser)); //saari keys ko liya aur ek array me rakh diya 
                                         //uspe loop laga sakte ahin , kai jagah kaam me le sakte hain
+
+console.log(Object.values(regularUser));
