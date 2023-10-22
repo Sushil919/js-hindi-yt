@@ -22,4 +22,10 @@ const regularUser = {
         }
     }
 }
-console.log(regularuser.fullname.userfullname); //nested object
+//console.log(regularuser.fullname.userfullname); //nested object
+
+//Combine objects like array
+const obj1 = {1: "a", 2: "b"}
+const obj2 = {3: "a", 4: "b"}
+const obj3 = {obj1, obj2}
+console.log(obj3); //Prob : obj ke andar aa rha 
