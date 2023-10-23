@@ -57,3 +57,5 @@ console.log(Object.keys(regularUser)); //saari keys ko liya aur ek array me rakh
                                         //uspe loop laga sakte ahin , kai jagah kaam me le sakte hain
 
 console.log(Object.values(regularUser));
+
+console.log(Object.entries(regularUser));
