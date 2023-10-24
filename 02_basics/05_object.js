@@ -6,7 +6,7 @@
 
  const course = {
     courseName : "JS in hindi",
-    courePrice : "999",
+    coursePrice : "999",
     courseInstructure : "Hitesh Sir"
  }
 //course.courseInstructure 
@@ -16,7 +16,9 @@
 // When we need clean code to above access karne ke liye 3 times likhna padega
 //Ek aur syntax hain -Syntactical sugar aap kare na kare par bohot log karte hain
 
-const {courseInstructor} = course 
-console.log(courseInstructor);
+const {courseInstructor : instructor} = course //destructure kar diya
+// console.log(courseInstructor);
+
+console.log(instructor); //Output nhi aa rha abhi : undefined aa rha
 
 
