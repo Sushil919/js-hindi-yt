@@ -21,4 +21,10 @@ const {courseInstructor : instructor} = course //destructure kar diya
 
 console.log(instructor); //Output nhi aa rha abhi : undefined aa rha
 
-
+//JSON API : Apna kaam kisi aur ke sir pe dena
+//JSON Object hi hota hai, uska koi naam nhi hota
+{
+    "name" : "hitesh"
+    "coursename" : "JS in hindi"
+    "price" : "free"
+}
