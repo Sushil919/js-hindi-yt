@@ -59,3 +59,5 @@ console.log(Object.keys(regularUser)); //saari keys ko liya aur ek array me rakh
 console.log(Object.values(regularUser));
 
 console.log(Object.entries(regularUser));
+
+console.log(regularUser.hasOwnProperty('isLoggedIn'));
