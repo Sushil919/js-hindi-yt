@@ -35,4 +35,4 @@ console.log(instructor); //Output nhi aa rha abhi : undefined aa rha
     {},
     {}
 ]
-
+//ek baar data mil jaye, fir wo jaise bhi mile
