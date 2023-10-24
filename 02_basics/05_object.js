@@ -9,8 +9,14 @@
     courePrice : "999",
     courseInstructure : "Hitesh Sir"
  }
-//course.courseInstructure //access kar sakte hain bilkul shi hai ya Square notation v padh sakte hain
+//course.courseInstructure 
+
+//access kar sakte hain bilkul shi hai ya Square notation v padh sakte hain
 
 // When we need clean code to above access karne ke liye 3 times likhna padega
 //Ek aur syntax hain -Syntactical sugar aap kare na kare par bohot log karte hain
+
+const {courseInstructor} = course 
+console.log(courseInstructor);
+
 
