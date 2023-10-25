@@ -6,4 +6,4 @@ function sayMyname(){
     console.log("A");
     console.log("V");
 }
-sayMyname();
+sayMyname //kuch nhi aaya...coz its just reference....() laga ke execution hota hai
