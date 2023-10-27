@@ -13,4 +13,6 @@ function addTwoNumbers(number1, number2){
 }
 //addTwoNumbers(3,4)
 //addTwoNumbers(3,"4") //string soch ke concat kar diya
-addTwoNumbers(3,"a") //string soch ke concat kar diya
+// addTwoNumbers(3,"a") //string soch ke concat kar diya
+
+addTwoNumbers(3,null)
