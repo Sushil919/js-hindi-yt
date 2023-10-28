@@ -18,10 +18,10 @@
 //addTwoNumbers(3,null)//Arguements {when calling}
 
 function addTwoNumbers(number1, number2){
-    let result = number1+number2
-    return result
+    //let result = number1+number2
     console.log(Keshav);
+    return number1+number2
 }
 
 const result = addTwoNumbers(3,4)
-console.log("Result : ",result) //result me to undefined hai
+console.log("Result : ",result) //result me value return ho rhi hai
