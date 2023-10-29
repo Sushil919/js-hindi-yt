@@ -27,6 +27,7 @@
 //console.log("Result : ",result) //result me value return ho rhi hai
 
 function loginUserName(username){
-    return `($username) logged in !!`
+    return `${username} logged in !!`
 }
-loginUserName("Keshav") //did not print this value or stored in any variabl.....jsut passed the arguement
+// loginUserName("Keshav") //did not print this value or stored in any variabl.....just passed the arguement
+ console.log(loginUserName("Parth"));
