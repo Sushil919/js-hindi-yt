@@ -1,8 +1,20 @@
-let a = 300
+// let a = 300
 
-if(true){
-    let a = 30;
-    const b = 40;
-    console.log("INNER: ",a);
+// if(true){
+//     let a = 30;
+//     const b = 40;
+//     console.log("INNER: ",a);
+// }
+// console.log(a);
+
+function one(){
+    const username = "Hitesh"
+
+    function two(){
+        const website = "youtube"
+        console.log(username);
+    }
+    console.log(website);
+    two()
 }
-console.log(a);
+one()
