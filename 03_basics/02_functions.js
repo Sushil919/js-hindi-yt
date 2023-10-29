@@ -4,8 +4,19 @@
 // }
 // console.log(calculateCartPrice(200, 400, 500)); //ab array ke andar add karke mil rha
 
-function calculateCartPrice(val1, val2,...num1) 
-{
-    return num1
+// function calculateCartPrice(val1, val2,...num1) 
+// {
+//     return num1
+// }
+// console.log(calculateCartPrice(200, 400, 500, 2000)); //starting ki 2 val val1, val2 and rest num1 me chali jayengi
+
+
+
+const user = {
+    username : "Keshav",
+    price : 199
 }
-console.log(calculateCartPrice(200, 400, 500, 2000)); //starting ki 2 val val1, val2 and rest num1 me chali jayengi
+function handleObject(anyobject){
+console.log(`Username is ${anyobject.username} and Price is ${anyobject.price}`);
+}
+handleObject(user)
