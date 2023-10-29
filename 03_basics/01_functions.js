@@ -26,7 +26,7 @@
 //const result = addTwoNumbers(3,4)
 //console.log("Result : ",result) //result me value return ho rhi hai
 
-function loginUserName(username){
+function loginUserName(username = "Krishna"){ //ab undefined ho hi nhi sakta
     if (!username) // same as username === undefined
     {
     console.log("Please Enter username");
@@ -36,4 +36,4 @@ return}
 // loginUserName("Keshav") //did not print this value or stored in any variabl.....just passed the arguement
 //  console.log(loginUserName("Parth"));
 
-console.log(loginUserName()); //koi value pass na kare to undefined logged in
+console.log(loginUserName("Radhika")); //ye function definition ko bhi overwrite kar dega
