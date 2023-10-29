@@ -30,3 +30,10 @@ handleObject({
     username : "Parth",
     price : 399
 }) //direct object v pass kar sakte the
+
+const myNewArray = [200, 400, 100, 600]
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondValue(myNewArray));
