@@ -27,6 +27,9 @@
 //console.log("Result : ",result) //result me value return ho rhi hai
 
 function loginUserName(username){
+    if (username == undefined){
+    console.log("Please Enter username");
+return}
     return `${username} just logged in !!`
 }
 // loginUserName("Keshav") //did not print this value or stored in any variabl.....just passed the arguement
