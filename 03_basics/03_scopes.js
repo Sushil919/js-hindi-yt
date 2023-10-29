@@ -14,7 +14,8 @@ function one(){
         const website = "youtube"
         console.log(username);
     }
-    console.log(website); //notice : line by line exec hota hai ..ye error de diya..so iske next two() exec hi nhi hua
+    // console.log(website); //notice : line by line exec hota hai ..ye error de diya..so iske next two() exec hi nhi hua
     two()
 }
 one()
+//**Error se hi seekha jata hai..jitna error ke sath familiar honge utne achhe se development kar payenge */
