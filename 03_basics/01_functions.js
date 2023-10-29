@@ -27,7 +27,9 @@
 //console.log("Result : ",result) //result me value return ho rhi hai
 
 function loginUserName(username){
-    return `${username} logged in !!`
+    return `${username} just logged in !!`
 }
 // loginUserName("Keshav") //did not print this value or stored in any variabl.....just passed the arguement
- console.log(loginUserName("Parth"));
+//  console.log(loginUserName("Parth"));
+
+console.log(loginUserName()); //koi value pass na kare to undefined logged in
