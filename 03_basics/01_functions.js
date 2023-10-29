@@ -17,11 +17,16 @@
 
 //addTwoNumbers(3,null)//Arguements {when calling}
 
-function addTwoNumbers(number1, number2){
-    //let result = number1+number2
-    console.log(Keshav);
-    return number1+number2
-}
+// function addTwoNumbers(number1, number2){
+//     //let result = number1+number2
+//     console.log(Keshav);
+//     return number1+number2
+// }
 
-const result = addTwoNumbers(3,4)
-console.log("Result : ",result) //result me value return ho rhi hai
+//const result = addTwoNumbers(3,4)
+//console.log("Result : ",result) //result me value return ho rhi hai
+
+function loginUserName(username){
+    return `($username) logged in !!`
+}
+loginUserName("Keshav") //did not print this value or stored in any variabl.....jsut passed the arguement
