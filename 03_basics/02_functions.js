@@ -25,4 +25,8 @@ console.log(`Username is ${anyobject.username} and Price is ${anyobject.price}`)
 //bas JS me thoda code jada likhna padta hai ...if,else se check karna padta hai
 
 }
-handleObject(user)
+// handleObject(user)
+handleObject({
+    username : "Parth",
+    price : 399
+}) //direct object v pass kar sakte the
