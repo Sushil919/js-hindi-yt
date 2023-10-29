@@ -14,9 +14,15 @@
 
 const user = {
     username : "Keshav",
-    price : 199
+    prices : 199 //is tarah ke method me type object handle kar rhe
+                //to type safty check karni hoti hai
 }
 function handleObject(anyobject){
-console.log(`Username is ${anyobject.username} and Price is ${anyobject.price}`);
+console.log(`Username is ${anyobject.username} and Price is ${anyobject.price}`); 
+
+//jo price extract kar rha hu wo available hai ya nhi object mein ...aur jo value pass kar rhe uska datatype object hai ya nhi hai ..
+//TypeScript mein ye type checking ho jati hai waise JavaScript me v ho jati hai...
+//bas JS me thoda code jada likhna padta hai ...if,else se check karna padta hai
+
 }
 handleObject(user)
