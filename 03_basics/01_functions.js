@@ -27,7 +27,8 @@
 //console.log("Result : ",result) //result me value return ho rhi hai
 
 function loginUserName(username){
-    if (username == undefined){
+    if (!username) // same as username === undefined
+    {
     console.log("Please Enter username");
 return}
     return `${username} just logged in !!`
