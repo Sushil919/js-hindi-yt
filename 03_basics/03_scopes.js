@@ -31,3 +31,15 @@ if(true){
    // console.log(website);
 }
 // console.log(username);
+
+//^^^^^^^^^^^^^^^^^^^^^^^ interesting^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+function addone(num){
+    return num+1
+}
+addone(5)
+
+const addtwo = function(num){
+return num + 2}
+
+addtwo(5)
