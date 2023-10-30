@@ -26,7 +26,7 @@ if(true){
     const username = "hitesh"
     if (username === "hitesh"){
         const website = " youtube"
-        console.log(username + website);
+        // console.log(username + website);
     }
    // console.log(website);
 }
@@ -34,12 +34,14 @@ if(true){
 
 //^^^^^^^^^^^^^^^^^^^^^^^ interesting^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+console.log(addone(5));
+
+
 function addone(num){
     return num+1
 }
-addone(5)
 
+console.log(addtwo(5)); //ab error aa gya ...declare hone ke baad ek variable me rakh diya hai
 const addtwo = function(num){
 return num + 2}
 
-addtwo(5)
