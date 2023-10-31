@@ -9,6 +9,9 @@ const user = {
         console.log(this); //this jo v current values hain unki baat karta hai..current context ki baat karta hai
     }
 }
-user.welcomeMessage() //value is not hardquoted,,,,,jo bhi current context hai us current context me username ke andar jo bhi value hai...usko print karo
-user.username = "Madhav" //context me madhav ho gya
-user.welcomeMessage()
+// user.welcomeMessage() //value is not hardquoted,,,,,jo bhi current context hai us current context me username ke andar jo bhi value hai...usko print karo
+// user.username = "Madhav" //context me madhav ho gya
+// user.welcomeMessage()
+
+console.log(this); //we are in node environment...this refers to an empty object
+//global ke andar context hi nhi hai isliye EMPTY
