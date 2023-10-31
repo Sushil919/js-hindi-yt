@@ -32,9 +32,14 @@ const user = {
 //      console.log(this.username); //still undefined
 // }
 
-const chai = () => { //arrow function
-    let username = "Keshav"
-     console.log(this.username); //still undefined
-}
+// const chai = () => { //arrow function
+//     let username = "Keshav"
+//      console.log(this.username); //still undefined
+// }
 // chai()
 
+// const addTwo = (num1, num2) => {     //basic arrow function
+//     return num1 + num2 //curly braces me add kara to RETURN keyword likhna padega
+// } 
+const addTwo = (num1, num2) => (num1 + num2) //()me wap kara to return keyword nhi likhna padega ...React me boht use hai //ek hi line ka statement hai
+console.log(addTwo(3,4));
