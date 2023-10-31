@@ -1,3 +1,5 @@
+
+//"arrow function me this nhi hota hai" ...Kyu nhi hota hai ...agar hota hai to kya refer karta hai
 const user = {
     username: "hitesh",
     price: 999,
