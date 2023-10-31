@@ -38,9 +38,12 @@ const user = {
 // }
 // chai()
 
-// const addTwo = (num1, num2) => {     //basic arrow function
+// const addTwo = (num1, num2) => {   //EXPLICIT RETURN  //basic arrow function
 //     return num1 + num2 //curly braces me add kara to RETURN keyword likhna padega
 // } 
-const addTwo = (num1, num2) => (num1 + num2) //React me padhenge...ye kaise ho gya ??return to likha hi nhi..ha () ke sath nhi likhte hain
+const addTwo = (num1, num2) => (num1 + num2)  //implicit return
+
+//React me padhenge...ye kaise ho gya ??return to likha hi nhi..ha () ke sath nhi likhte hain
 //()me wap kara to return keyword nhi likhna padega ...React me boht use hai //ek hi line ka statement hai
+
 console.log(addTwo(3,4));
