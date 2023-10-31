@@ -16,9 +16,25 @@ const user = {
 // console.log(this); //we are in node environment...this refers to an empty object
 //global ke andar context hi nhi hai isliye EMPTY
 
-function chai(){
+
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%////////////////////////
+
+
+// function chai(){
+//     let username = "Keshav"
+//     console.log(this.username); //ye context object ke andar hi kaam kar rha hai 
+//     //functions ke andar this nhi use kar pa rhe
+// }
+// chai()
+
+// const chai = function () {
+//     let username = "Keshav"
+//      console.log(this.username); //still undefined
+// }
+
+const chai = () => { //arrow function
     let username = "Keshav"
-    console.log(this.username); //ye context object ke andar hi kaam kar rha hai 
-    //functions ke andar this nhi use kar pa rhe
+     console.log(this.username); //still undefined
 }
-chai()
+// chai()
+
