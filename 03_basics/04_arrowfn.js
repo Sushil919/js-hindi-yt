@@ -8,3 +8,6 @@ const user = {
         console.log(`${this.username} , welcome to website`); //current context ko refer karne ke liye "this" keyword lagate hain
     }
 }
+user.welcomeMessage() //value is not hardquoted,,,,,jo bhi current context hai us current context me username ke andar jo bhi value hai...usko print karo
+user.username = "Madhav" //context me madhav ho gya
+user.welcomeMessage()
