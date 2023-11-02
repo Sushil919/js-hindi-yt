@@ -35,3 +35,7 @@ if(userEmail) //kuch condt check nhi kiya
 }
 else
 console.log("Id not authenticated"); //empty hone ki wajah se false value
+
+//Falsy Values : false, 0, -0, BigInt 0n, "", null, NaN
+
+//Truthy Values : "0", 'false', " ", [], {}, Function[]{}
