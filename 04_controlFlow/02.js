@@ -26,7 +26,7 @@
 // }
 
 
-const userEmail = ""
+const userEmail = []
 
 if(userEmail) //kuch condt check nhi kiya
                 //empty string is considered as a false val
@@ -39,3 +39,7 @@ console.log("Id not authenticated"); //empty hone ki wajah se false value
 //Falsy Values : false, 0, -0, BigInt 0n, "", null, NaN
 
 //Truthy Values : "0", 'false', " ", [], {}, Function[]{}
+
+if (userEmail.length === 0){ //Arrays ko check
+    console.log("Array is empty");
+}
