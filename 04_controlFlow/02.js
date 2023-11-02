@@ -10,7 +10,8 @@ switch(month){
 
     case 3 :
         console.log("March");
-        break;
+        // break;               //break nhi hai to : condt ke baad ke saare cases execute ho jate hain
+                                //except default case
 
     case 4 :
         console.log("Apr");
