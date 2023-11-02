@@ -26,12 +26,12 @@
 // }
 
 
-const userEmail = "parth@google.com"
+const userEmail = ""
 
 if(userEmail) //kuch condt check nhi kiya
-                //String is considered as a truthy val
+                //empty string is considered as a false val
 {
     console.log("Email id authenticated"); //email hone ki wajah se its getting executed
 }
 else
-console.log("Id not authenticated");
+console.log("Id not authenticated"); //empty hone ki wajah se false value
