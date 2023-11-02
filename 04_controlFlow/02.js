@@ -44,8 +44,15 @@ console.log("Id not authenticated"); //empty hone ki wajah se false value
 //     console.log("Array is empty");
 // }
 
-const emptyObj = {}
+// const emptyObj = {}
 
-if(Object.keys(emptyObj).length === 0){
-    console.log("Object is empty");
-}
+// if(Object.keys(emptyObj).length === 0){
+//     console.log("Object is empty");
+// }
+
+
+//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+false == 0  //true
+false == '' //true
+0 = '' //true
