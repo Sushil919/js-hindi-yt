@@ -40,6 +40,12 @@ console.log("Id not authenticated"); //empty hone ki wajah se false value
 
 //Truthy Values : "0", 'false', " ", [], {}, Function[]{}
 
-if (userEmail.length === 0){ //Arrays ko check
-    console.log("Array is empty");
+// if (userEmail.length === 0){ //Arrays ko check
+//     console.log("Array is empty");
+// }
+
+const emptyObj = {}
+
+if(Object.keys(emptyObj).length === 0){
+    console.log("Object is empty");
 }
