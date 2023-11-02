@@ -61,7 +61,8 @@ console.log("Id not authenticated"); //empty hone ki wajah se false value
 //Nullish Coalescing Operator (??) : null undefined
  
 // let val1 = 5 ?? 10
-let val1 = null ?? 10 
+// let val1 = null ?? 10 
+let val1 = undefined ?? 15 //ye operator null & undefined ke liye hi bana hai
 
 
 // ye new operator --> agar null value aai hai to uskasafety check karta hai
