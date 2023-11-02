@@ -1,16 +1,16 @@
-const month = 3
+const month = "March"
 switch(month){
-    case 1 :
+    case "Jan" :
         console.log("Jan");
         break;
 
-    case 2 :
+    case "Feb" :
         console.log("Feb");
         break;
 
-    case 3 :
+    case "March" :
         console.log("March");
-        // break;               //break nhi hai to : condt ke baad ke saare cases execute ho jate hain
+        break;               //break nhi hai to : condt ke baad ke saare cases execute ho jate hain
                                 //except default case
 
     case 4 :
