@@ -53,6 +53,23 @@ console.log("Id not authenticated"); //empty hone ki wajah se false value
 
 //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
-false == 0  //true
-false == '' //true
-0 = '' //true
+// false == 0  //true
+// false == '' //true
+// 0 = '' //true
+
+//************************************************************* */
+//Nullish Coalescing Operator (??) : null undefined
+ 
+// let val1 = 5 ?? 10
+let val1 = null ?? 10 
+
+
+// ye new operator --> agar null value aai hai to uskasafety check karta hai
+//null ke basis pe ho sakta hai kuch program run na kare ya kuch aage ja ke prob aa jaye
+
+console.log(val1);
+
+//kai baar jab database se call karenge, firebase ka use karenge, AppWrite ka use karenge
+//..to directly response nhi milta hai-> do values milti hain
+//ho sakta hai null value aa jaye ya ho sakta hai response aaye hi na undefined aa jaye
+//to us case me pura ka pura code structure pareshan ho sakta hai 
