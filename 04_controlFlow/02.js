@@ -60,7 +60,10 @@ console.log("Id not authenticated"); //empty hone ki wajah se false value
 //************************************************************* */
 //Nullish Coalescing Operator (??) : null undefined
  
-// let val1 = 5 ?? 10
+//Note : Basically ye ek humara  fallback hai ki errors aaye to kis tarah se handle kare.....ya fir error ki jagah koi value assign karna chahe to wo value kaise assign ho
+
+// let val1 = 5 ?? 10  //Note2 : yha to value likh diye hai(5/10) ..but values aise nhi aati hain..
+                            //ho sakta hai ki firebase se koi value aa rhi ho..kisi third party se koi function execute ho rha ho
 // let val1 = null ?? 10 
 let val1 = undefined ?? 15 //ye operator null & undefined ke liye hi bana hai
 
