@@ -19,9 +19,16 @@ for (const num of arr) //ab ye jo iteraror of object hai isse don worry ...aisa 
 }
 
 const greetings = "Hello World!"
-for (const greet of greetings) {
-    console.log(`Each char is ${greet}`);
-}
+// for (const greet of greetings) {
+//     console.log(`Each char is ${greet}`);
+// }
 
 //Map
 const map = new Map() //Map apne aap me ek object h, JS me sab kuch hi object hai
+
+map.set('IN',"India")
+map.set('USA', "United state of America")
+map.set('Fr', "France")
+map.set('IN', "India") //Duplicate value nhi aati
+
+console.log(map); //Order me rehti hain
