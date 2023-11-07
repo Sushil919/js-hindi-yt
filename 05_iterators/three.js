@@ -32,8 +32,15 @@ map.set('Fr', "France")
 map.set('IN', "India") //Duplicate value nhi aati..unique values are there in map
 console.log(map); //Order me rehti hain
 
-for (const key of map) {
-    // console.log(key);   //Pura ka pura Array print ho rha hai 
+// for (const key of map) {
+//     // console.log(key);   //Pura ka pura Array print ho rha hai 
 
     
+
+// }
+// We want to print value with key then
+for (const [key, value] of map) {
+console.log(key, ':-' ,value); //Array destructured
+
+
 }
