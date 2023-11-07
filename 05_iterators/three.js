@@ -40,7 +40,15 @@ console.log(map); //Order me rehti hain
 // }
 // We want to print value with key then
 for (const [key, value] of map) {
-console.log(key, ':-' ,value); //Array destructured
-
-
+// console.log(key, ':-' ,value); //Array destructured
 }
+
+const myObject ={
+    'Epic 1' : 'Ramayana',
+    'Epic 2' : 'Mahabharat'
+}
+// for (const [key, value] of myObject) {
+//     console.log(key, ':-', value);  //TypeError: myObject is not iterable
+     
+//     //Objects ko iterate karane ke tareeke hote hain
+// }
