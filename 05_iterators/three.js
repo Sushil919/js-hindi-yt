@@ -29,6 +29,11 @@ const map = new Map() //Map apne aap me ek object h, JS me sab kuch hi object ha
 map.set('IN',"India")
 map.set('USA', "United state of America")
 map.set('Fr', "France")
-map.set('IN', "India") //Duplicate value nhi aati
-
+map.set('IN', "India") //Duplicate value nhi aati..unique values are there in map
 console.log(map); //Order me rehti hain
+
+for (const key of map) {
+    // console.log(key);   //Pura ka pura Array print ho rha hai 
+
+    
+}
