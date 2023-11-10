@@ -11,7 +11,7 @@
 const arr = [1, 2, 3, 4, 5]
 
 for (const num of arr) //ab ye jo iteraror of object hai isse don worry ...aisa nhi h ki ye 
-                                // loop object ke liye hi kaam aata hai....loop, loop hai --> kisi ka v iterator ho skta hai..
+                                //aisa nhi h ki ye loop object ke liye hi kaam aata hai....loop, loop hai --> kisi ka v iterator ho skta hai..
 //Objects, Array, String sare iteratable hain..unpe loops laga sakte hain
 
 {
