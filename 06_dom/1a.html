@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Learning</title>
+    <style>
+        .bg-black{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="heading">DOM Learning on Chai aur Code <span style="display: none;">test text</span></h1> 
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+</body>
+</html>
+
+<!-- Note : document.querySelector('') :- .class, #id, or any other element can be accessed 
+CSS ke selectors sab support karte hain-->
+
+<!-- querySelector ek hi value deta hai -->
+<!-- To access all the values we use querySelectorAll() -->
+<!-- NodeList milti hai, similar to array but not array but forEach -->
+<!-- We can convert NodeList into array then apply functionality of arrays -->
+
+<!-- **************getElementByClassName************************** -->
+<!-- Kisi ek var me ^ ko hold karne par HTMLCollection mil rha to usko array mein convert karenge :: Array.from(var_name) :- ab Array ki saari properties milengi -->
+
+<!-- Ab 10 list item diya jaye, aao database pe ye 10 item lo, aur update the existing list item ::-- to hum forEach loop lagayenge querySelector se select karenge aur saare value bhar denge -->
