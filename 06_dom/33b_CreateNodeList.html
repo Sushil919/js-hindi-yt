@@ -12,6 +12,12 @@
     const div = document.createElement('div')
     console.log(div);
     div.className = "main"
-    div.innerText = "Chai aur Code"
+    div.id = Math.round (Math.random *10 + 1)
+    div.setAttribute("title", "generated title")
+    // div.innerText = "Chai aur Code"
+    const addText = document.createTextNode("Chai aur Code")
+    div.appendChild(addText)
+    
+    document.body.appendChild(div)
 </script>
 </html>
