@@ -17,5 +17,13 @@
         document.querySelector('.language').appendChild(li)
     } //But optimization issue
     addLanguage("Python")
+    //Lets optimize
+
+    function addOptiLanguage(langName){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild('li')
+    }
+    addOptiLanguage('GoLang')
 </script>
 </html>
