@@ -15,13 +15,21 @@
         //attachEvent()
         //jQuery - on
 
+        // document.getElementById('images').addEventListener('click', function(e){
+        //     console.log("clicked inside the ul");
+        // }, false)
+
+        // document.getElementById('owl').addEventListener('click', function(e){
+        //     console.log("owl clicked");
+        // }, false) //Event propogation - bubbling up)
+
         document.getElementById('images').addEventListener('click', function(e){
             console.log("clicked inside the ul");
-        }, false)
+        }, true)
 
         document.getElementById('owl').addEventListener('click', function(e){
             console.log("owl clicked");
-        }, false) //Event propogation - bubbling up)
+        }, true)
     </script>
 </body>
 </html>
