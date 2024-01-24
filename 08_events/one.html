@@ -27,20 +27,26 @@
             console.log("clicked inside the ul");
         }, false)
 
-        document.getElementById('owl').addEventListener('click', function(e){
-            console.log("owl clicked");
-            e.stopPropagation(); //when we want ki inner element alag reh jaye and outer element alag reh jaye
+        // document.getElementById('owl').addEventListener('click', function(e){
+        //     console.log("owl clicked");
+        //     e.stopPropagation(); //when we want ki inner element alag reh jaye and outer element alag reh jaye
 
-            //now 'owl' bubble hoke upper ke element pe nahi jayega
-        }, false) 
+        //     //now 'owl' bubble hoke upper ke element pe nahi jayega
+        // }, false) 
 
-        document.getElementById('images').addEventListener('click', function(e){
-            console.log("clicked inside the ul");
-        }, true) //capturing mode - top se bottom
+        // document.getElementById('images').addEventListener('click', function(e){
+        //     console.log("clicked inside the ul");
+        // }, true) //capturing mode - top se bottom
 
-        document.getElementById('owl').addEventListener('click', function(e){
-            console.log("owl clicked");
-        }, true)// we can use according to our use case
+        // document.getElementById('owl').addEventListener('click', function(e){
+        //     console.log("owl clicked");
+        // }, true)// we can use according to our use case
+
+            document.getElementById('google').addEventListener('click',function(e){
+                e.preventDefault();
+                e.stopPropagation();
+                console.log("google clicked");
+            },false)
 
     </script>
 </body>
