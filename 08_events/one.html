@@ -29,8 +29,10 @@
 
         document.getElementById('owl').addEventListener('click', function(e){
             console.log("owl clicked");
-            e.stopPropagation();
-        }, false)
+            e.stopPropagation(); //when we want ki inner element alag reh jaye and outer element alag reh jaye
+
+            //now 'owl' bubble hoke upper ke element pe nahi jayega
+        }, false) 
 
         document.getElementById('images').addEventListener('click', function(e){
             console.log("clicked inside the ul");
