@@ -42,11 +42,20 @@
         //     console.log("owl clicked");
         // }, true)// we can use according to our use case
 
-            document.getElementById('google').addEventListener('click',function(e){
-                e.preventDefault();
-                e.stopPropagation();
-                console.log("google clicked");
-            },false)
+            // document.getElementById('google').addEventListener('click',function(e){
+            //     e.preventDefault();
+            //     e.stopPropagation();
+            //     console.log("google clicked");
+            // },false)
+
+//Click image and remove it
+
+                document.querySelector('#images').addEventListener('click', function(e){
+                    console.log(e.target.parentNode);
+                    let removeIt = e.target.parentNode
+                    removeIt.remove()
+                })
+
 
     </script>
 </body>
