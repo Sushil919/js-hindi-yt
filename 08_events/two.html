@@ -21,10 +21,14 @@
 
     //Khud se likh rha scripts
 
-    const learnTime = function(){
-        console.log("Timeout using setTimeout");
-    }
-    setTimeout(learnTime, 5000) //learnTIme ka reference de rha coz handler hai, learnTime() execute ho jayega
+    // const learnTime = function(){
+    //     console.log("Timeout using setTimeout");
+    // }
+    
+       const changeText = function(){document.querySelector('h1').innerHTML = "Best JavaScript Series"}
+       setTimeout(changeText, 5000) //5 sec baad text ko change kar rahe
+
+    // setTimeout(learnTime, 5000) //learnTIme ka reference de rha coz handler hai, learnTime() execute ho jayega
 
     
 </script>
