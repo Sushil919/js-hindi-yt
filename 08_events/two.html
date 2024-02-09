@@ -26,7 +26,15 @@
     // }
     
        const changeText = function(){document.querySelector('h1').innerHTML = "Best JavaScript Series"}
-       setTimeout(changeText, 5000) //5 sec baad text ko change kar rahe
+       const changeMe = setTimeout(changeText, 5000) //5 sec baad text ko change kar rahe
+
+        document.querySelector('#stop').addEventListener('click', function(){
+            clearTimeout(changeMe)
+            console.log("STOPPED");
+        })
+        
+        
+
 
     // setTimeout(learnTime, 5000) //learnTIme ka reference de rha coz handler hai, learnTime() execute ho jayega
 
