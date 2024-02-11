@@ -7,14 +7,27 @@
 </head>
 <body>
     <h1>Chai aur JavaScript</h1>
-    <button id="stop">Stop</button>
     <button id="start">Start</button>
+    <button id="stop">Stop</button>
 </body>
 <script>
-
+    let intervalId
     const sayDate = function(){
-        console.log("Async", Date.now());
+        console.log("The Date", Date.now());
     }
-    setInterval(sayDate, 1000);
+    
+    document.querySelector('#start').addEventListener('click', function(){
+        setInterval(sayDate, 1000);
+    })
+
+    // setInterval(sayDate, 1000)    
+
+     intervalId = setInterval(sayDate, 1000)
+    
+    // clearInterval(intervalId)
+
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearInterval(intervalId)
+    })
 </script>
 </html>
